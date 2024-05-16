@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head1{
+    margin-top: 0.3em;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+#bg1{
+    position: relative;
+    height: 80%;
+    width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.h1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h2{
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.book{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+#book{
+    text-decoration: overline;
+    text-decoration: underline;
+    color:whitesmoke;
+}
+.infohead1{
+    margin-top: 3em;
+    margin-right: 0.7em;
+    margin-left: 0.7em;
+    text-align: center;
+    font-size: x-large;
+}
+.info1{
+    margin-top: 1em;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+
+}
+.gap{
+    display:block;
+    margin-top:1px;
+}
+.b1{
+    height: 40px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(193, 102, 102);
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;
+}
+#b1{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#pic1{
+    height: 25vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3em;
+    border-radius: 10px 10px 10px 10px;
+}
+.gvinfohead1{
+    padding-left:0.8em;
+    margin-top: 1em;
+    color:rgb(193, 102, 102) ;
+}
+.personalinfo{
+    padding-right: 1em;
+    padding-left: 1.7em;
+    font-family: sans-serif;
+    margin-top: 1em;
+}
+.b2{
+    height: 40px;
+    width: 100px;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: rgb(193, 102, 102);
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid whitesmoke;
+}
+.forms{
+    height: 90vh;
+    width: 98%;
+    background-color: #E1DCD5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    border-radius: 5px 5px 5px 5px;
+}
+.formhead{
+    text-align: center;
+    padding-top: 2em;
+}
+.forminfo{
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+.formtexts{
+    text-align: left;
+    padding-left: 0.8em;
+    padding-top: 3em;
+    font-size: medium;
+}
+#firstname{
+    display: inline;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-left: 0.4em;
+}
+#secondname{
+    display: inline;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-left: 2em;
+}
+.formtextemail{
+    text-align: left;
+    padding-left: 0.8em;
+    padding-top: 2em;
+    font-size: medium;
+}
+#email{
+    display: inline;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    padding-left: 7em;
+    margin-left: 4em;
+}
+.formtextmessage{
+    text-align: left;
+    padding-left: 0.8em;
+    padding-top: 2em;
+    font-size: medium;
+}
+#texttarea{
+    padding-bottom: 20em;
+    padding-left: 16em;
+    margin-left: 1em;
+}
+
+
+
+}
